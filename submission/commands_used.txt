@@ -1,0 +1,83 @@
+    1  echo $SHELL
+    2  mkdir project
+    3  ls
+    4  cd project
+    5  pwd
+    6  mkdir docs bin scrips
+    7  ls
+    8  rm scrips
+    9  rmdir scrips
+   10  ls
+   11  mkdir scripts
+   12  ls
+   13  cd docs
+   14  echo "This is the initial report by student01" > report.txt
+   15  ls
+   16  cat report.txt
+   17  ls -la
+   18  echo "Top secret" > .secret.txt
+   19  ls
+   20  ls -a
+   21  nano report.txt
+   22  emacs report.txt
+   23  mousepad report.txt
+   24  nano report.txt
+   25  ls
+   26  cp report.txt /home/student01/project/scripts
+   27  ls
+   28  cd /home/student01/project/scripts
+   29  ls
+   30  cd ..
+   31  ls
+   32  cd docs
+   33  mv .secret.txt /home/student01/project/bin
+   34  ls -a /home/student01/project/bin
+   35  cd /home/student01/project/bin
+   36  ls -a 
+   37  mv .secret.txt classified.txt
+   38  ls
+   39  cat classified.txt
+   40  cd ..
+   41  ls
+   42  cd scripts
+   43  nano install.sh
+   44  history > commands_used.txt
+   45  ls
+   46  ls -l
+   47  chmod +x install.sh
+   48  ls -l
+   49  ./install.sh
+   50  cd..
+   51  cd ..
+   52  ls
+   53  cd bim
+   54  cd bin
+   55  ls
+   56  ls -l
+   57  chmod 660 classified.txt
+   58  ls -l
+   59  cd ..
+   60  cd docs
+   61  touch admin_notes.txt
+   62  ls -l
+   63  chmod 600 admin_notes.txt
+   64  ls -l
+   65  ls
+   66  rm admin_notes.txt
+   67  cd ..
+   68  mkdir backup
+   69  cd docs
+   70  ls
+   71  cp report.txt /home/student01/project/backup
+   72  cd  ..
+   73  ls
+   74  cd scripts
+   75  ls
+   76  mv commands_used.txt /home/student01
+   77  ls
+   78  cp install.sh /home/student01/project/backup
+   79  cd ~
+   80  tree project
+   81  tree project > tree_project
+   82  ls -la
+   83  ls ~

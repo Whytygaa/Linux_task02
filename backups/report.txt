@@ -1,0 +1,3 @@
+This is the initial report by student01
+Appended line using nano
+
